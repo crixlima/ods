@@ -189,14 +189,19 @@ footer{
 /* Estilos para dispositivos móveis */
 @media (max-width: 480px) {
   .logo {
-    width: 15%;
+    width: 16%;
   }
-
+ 
   .genero, .descubra {
 
     font-size: 0.45em;
+    display: flex;
   } 
+  .descubra{
+    margin-right: 0.0em;
+    text-align: center;
 
+  }
   .titulo-mas{
     font-size: 0.70em;  
     
